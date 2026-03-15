@@ -2,8 +2,8 @@
   "name": "famousplaces",
   "private": true,
   "scripts": {
-    "install:frontend": "cd frontend && npm install",
-    "build": "cd frontend && npm run build",
+    "postinstall": "cd frontend && npm install",
+    "build": "cd frontend && npx vite build",
     "dev": "cd frontend && npm run dev"
   }
 }
